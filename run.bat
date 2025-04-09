@@ -1,0 +1,1 @@
+docker build -t johncannothearyou-ui . && docker run -p 8081:80 johncannothearyou-ui
