@@ -1,3 +1,17 @@
+# Quick Start
+
+You can easily run johncanthearyou-ui directly on your laptop or through containers
+
+- Local:
+  - Ensure `node` and `npm` are installed
+  - Run `npm clean-install` to reinstall dependencies
+  - Run `npm run dev` to start local development
+- Containerized:
+  - Ensure `docker` is installed and running
+  - Run `docker compose up -d` (make sure to use `sudo` if running on Linux)
+
+The application will now be running on `localhost:8081`
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
