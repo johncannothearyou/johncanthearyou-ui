@@ -1,5 +1,3 @@
-import "./Home.css";
-
 export default function Home() {
-	return <h1>Hi, I'm John Stockton!</h1>;
+	return <div>Hi, I'm John Stockton!</div>;
 }
