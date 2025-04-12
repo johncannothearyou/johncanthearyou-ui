@@ -1,3 +1,3 @@
 export default function Blog() {
-	return <div>TODO: Blog Page</div>;
+	return <h1>TODO: Blog Page</h1>;
 }

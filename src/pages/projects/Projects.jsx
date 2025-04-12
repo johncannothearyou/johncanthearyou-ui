@@ -1,3 +1,3 @@
 export default function Projects() {
-	return <div>TODO: Projects Page</div>;
+	return <h1>TODO: Projects Page</h1>;
 }

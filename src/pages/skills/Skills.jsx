@@ -1,3 +1,3 @@
 export default function Skills() {
-	return <div>TODO: Skills Page</div>;
+	return <h1>TODO: Skills Page</h1>;
 }

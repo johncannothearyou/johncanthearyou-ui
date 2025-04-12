@@ -1,7 +1,18 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    color: #D0D0D0;
-    background-color: #202020;
+html,
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	color: #d0d0d0;
+	background-color: #252525;
+}
+
+h1,
+h2 {
+	top: 25vh;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	color: lightgrey;
 }
