@@ -9,7 +9,7 @@ createRoot(document.getElementById("root")).render(
 	<StrictMode>
 		<div className="flex flex-col min-h-screen">
 			<Header />
-			<main className="grow bg-gray-600 text-gray-200 py-2 text-center">
+			<main className="grow bg-gray-600 text-gray-200 p-2 text-center">
 				<BrowserRouter>
 					<Routes>
 						{pages.map(page => (

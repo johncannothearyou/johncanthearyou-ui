@@ -7,7 +7,11 @@ export const Header = () => (
 	<header className="flex bg-purple-700 text-gray-200 text-4xl">
 		<span className="flex flex-col sm:flex-row">
 			{pages.map(page => (
-				<a href={page.route} key={page.name} className={navButtonStyle}>
+				<a
+					href={page.route}
+					key={page.name}
+					className={`${navButtonStyle} ${window.location.pathname === page.route ? "bg-green-500" : ""}`}
+				>
 					{page.name}
 				</a>
 			))}
