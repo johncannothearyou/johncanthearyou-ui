@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 const navButtonStyle = "hover:bg-orange-400 rounded p-1";
 
 export const Header = () => (
-	<header className="flex bg-purple-700 text-gray-200 text-4xl p-1">
+	<header className="sticky top-0 flex bg-purple-700 text-gray-200 text-3xl p-1">
 		<span className="flex flex-col sm:flex-row">
 			{pages.map(page => (
 				<a
