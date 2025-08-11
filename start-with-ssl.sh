@@ -15,6 +15,8 @@ if [ ! -d "/etc/letsencrypt/live" ]; then
     --email $email \
     --domain $domain \
     --domain www.$domain
+else 
+  certbot renew
 fi
 
 # Add a cron job to renew the certificate
