@@ -1,11 +1,7 @@
 services:
-  app:
+  johncannothearyou-ui:
+    container_name: johncannothearyou-ui
     build: .
-    restart: "always"
+    restart: always
     ports:
-      - "443:443"
-    volumes:
-      - letsencrypt:/etc/letsencrypt
-
-volumes:
-  letsencrypt:
+      - "3001:3001"
